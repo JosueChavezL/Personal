@@ -1,0 +1,53 @@
+
+nav {
+    font-size: 15px;
+    padding-bottom: 30px;
+ }
+
+ body{
+    padding: 10px 30px 30px 30px;
+    background-image: linear-gradient(to bottom, #c0d1eb, #9aa5bb, #747c8e, #515563, #2f313b);
+ }
+
+main img{
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+}
+
+p{
+    width: 100%;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    border-radius: 6px;
+    Padding: 10px;
+    text-align: justify;
+   
+}
+
+section img{
+    width: 30px;
+    height: 30px;
+}
+section a{
+font-size: 25px;
+}
+footer{
+    font-size: 25px;
+    text-align: center;
+    
+    }
+footer img {    
+    width: 30px;
+    height: 30px;
+}
+ a:hover{
+background-color: rgb(133, 233, 233);
+ }
+
+ #btnGit{
+    padding: 15px 30px;
+    background-color: aqua;
+    border-radius: 15px;
+ }

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./src/documento.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Quote Services</title>
+</head>
+<body>
+    <nav class="nav nav-pills nav-justified">
+        <a class="nav-link" href="/index.html">Home</a>
+        <a class="nav-link" href="./Quotation.html">Quote Services</a>
+        <a class="nav-link" href="./ProfExperience.html">Professional Experience</a>
+        <a class="nav-link" href="./Education.html">Education</a>
+        <a class="nav-link" href="./Contact.html">Contact</a>
+        <hr>   
+    </nav>      
+            <main class="container">
+                <form>
+                    <h1>Quotation Preview</h1>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputName">Nombre</label>
+                            <input type="text" class="form-control" id="inputName" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail">Email</label>
+                            <input type="email" class="form-control" id="inputEmail" placeholder="Enteruseremail@example.com">
+                        </div>
+                        
+                    </div><!--row-->
+                        <div class="form-row"> 
+                            <div class="form-group col-md-6">
+                            <label for="inputHours">Hours</label>
+                            <input type="text" class="form-control" id="inputHours" placeholder="# Hours">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputExtras">Extras</label>
+                                <select id="inputExtras" class="form-control">
+                                <option  value="0" selected>Choose...</option>
+                                <option value="7000">Graphic Design</option>
+                                <option value="1500">Hosting</option>
+                                <option value="12000">Support</option>
+                                </select>
+                            </div>
+                        </div><!--row-->
+                    <div class="form-group">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="checkIVA">
+                        <label class="form-check-label" for="checkIVA">
+                         I.V.A
+                        </label>
+                      </div>
+                    </div>
+                    <button type="button" class="btn btn-primary" id="btnQuote">Quote</button>
+                  </form>
+                  <br>
+                  <br>
+                  <div class="card">
+                    <div class="card-header">
+                      Quotation
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title" id="carTitle"></h5>
+                      <p class="card-text" id="cardText"></p>
+                      <a href="#" class="btn btn-primary">Print</a>
+                    </div>
+                  </div><!-- Card -->
+            
+    </main>
+    <footer>
+        <hr>
+        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="">
+        <a href="https://github.com/JosueChavezL?tab=repositories">More about my projects</a>          
+        </footer>
+       <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>
